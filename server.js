@@ -1,6 +1,6 @@
 const express=require('express');
 const bodyParser=require('body-parser');
-const morgan=require('morgan');
+const morgan=require('morgan'); // http request logger middleware
 const cors=require('cors');
 const connectDB=require('./config/db');
 const app=express();
